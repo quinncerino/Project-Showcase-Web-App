@@ -1,8 +1,8 @@
 title;description;url;image
-Word for Word;A Python interactive quote-guessing web app created and deployed using Streamlit, web scraping, andan external SQL database.;https://pythonhow.com;1.png
-Weatherly;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;6.png
-Read the Room;A Python program to obtain and analyze various trends in data re- lated to eBooks, using Natural Language Processing and Regex.;https://pythonhow.com;10.png
-To-Do List;A Python web app to help you focus on creating and completing tasks.;https://pythonhow.com;1.png
-Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;2.png
-Healthy Habit Helper;A C++ terminal-based program to keep track of habits to maintain and encourage a healthy lifestyle.;https://pythonhow.com;7.png
-Dungeon Escape;A C++ terminal-based game that descriptively takes the user on a dungeon adventure full of dangers and challenges.;https://pythonhow.com;9.png
+Word for Word;A Python interactive quote-guessing web app created and deployed using Streamlit, web scraping, and an external SQL database.;https://pythonhow.com;1.png
+Weatherly;A REST API built with Python and Flask to serve historical weather data for various cities.;https://pythonhow.com;2.png
+Read the Room;A Python program to obtain and analyze various trends in data related to eBooks, using Natural Language Processing and Regex.;https://pythonhow.com;3.png
+Dungeon Escape;A C++ terminal-based game that descriptively takes the user on a dungeon adventure full of dangers and challenges.;https://pythonhow.com;4.png
+Portfolio Website;A website built entirely in Python to showcase coding projects and apps.;https://pythonhow.com;5.png
+Healthy Habit Helper;A C++ terminal-based program to keep track of habits to maintain and encourage a healthy lifestyle.;https://pythonhow.com;6.png
+To-Do List;A Python web app to help you focus on creating and completing tasks.;https://pythonhow.com;7.png

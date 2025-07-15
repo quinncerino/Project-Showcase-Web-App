@@ -30,6 +30,8 @@ with col3:
         csv_reader = list(DictReader(file, delimiter=";"))
         for index, row in enumerate(csv_reader[:4]):
             st.header(row['title'])
+            st.write(row['description'])
+            st.image("images/" + row['image'], width=400)
 
 
 with col4:
@@ -37,4 +39,6 @@ with col4:
         csv_reader = list(DictReader(file, delimiter=";"))
         for index, row in enumerate(csv_reader[4:]):
             st.header(row['title'])
+            st.write(row['description'])
+            st.image("images/" + row['image'], width=400)
 
