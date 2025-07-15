@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas   #processes data in csv files
 
 st.set_page_config(layout = 'wide')
 
@@ -15,3 +16,12 @@ with col2:
     """
 
     st.info(content)
+
+
+st.write("Below you can find some of the apps and projects I have programmed. Feel free to contact me!")
+
+
+col3, col4 = st.columns(2)
+
+with col3:
+    df = pandas.read_csv("data.csv", sep=";")
