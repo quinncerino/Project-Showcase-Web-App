@@ -1,5 +1,6 @@
 import streamlit as st
-import pandas   #processes data in csv files
+#import pandas   #processes data in csv files
+from csv import DictReader
 
 st.set_page_config(layout = 'wide')
 
@@ -23,5 +24,17 @@ st.write("Below you can find some of the apps and projects I have programmed. Fe
 
 col3, col4 = st.columns(2)
 
+
 with col3:
-    df = pandas.read_csv("data.csv", sep=";")
+    with open("data.csv") as file:
+        csv_reader = list(DictReader(file, delimiter=";"))
+        for index, row in enumerate(csv_reader[:4]):
+            st.header(row['title'])
+
+
+with col4:
+    with open("data.csv") as file:
+        csv_reader = list(DictReader(file, delimiter=";"))
+        for index, row in enumerate(csv_reader[4:]):
+            st.header(row['title'])
+
